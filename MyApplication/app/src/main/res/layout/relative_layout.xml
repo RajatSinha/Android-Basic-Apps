@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/lblUserName"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="@color/hue"
+        android:text="User Name"
+
+    android:textStyle="bold"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp">
+</TextView>
+<EditText
+android:id="@+id/ediUserName"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#ffff0066"
+android:textStyle="bold"
+android:inputType="text"
+android:layout_alignParentLeft="true"
+    android:layout_marginTop="60dp"
+    android:layout_below="@id/myButton"
+
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Here"
+        android:id="@+id/button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
